@@ -1,0 +1,25 @@
+body{
+    background-image: url(./mario-purisic-jG1z5o7NCq4-unsplash.jpg);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1{
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+h2{
+     font-size: 40px;
+}
+
+
+#incr-button{
+    background-color: darkred;
+    font-size: larger;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 50px;
+}
