@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically */
+    height: 100vh;            /* makes body take full viewport height */
+    margin: 0;                /* removes default margin */
+    flex-direction: column;  /* stacks elements vertically */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(darkblue, lightblue) /* optional styling */
+}
+
+.button-align{
+    display: flex;
+    gap:10px
+}
+
+button{
+    font-weight: bolder;
+    border-radius: 50px;
+    text-shadow: 5 5 black;
+}
+
+button:hover{
+    background-color: grey;
+    color: aliceblue;
+}
