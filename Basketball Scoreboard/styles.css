@@ -1,0 +1,59 @@
+@font-face{
+    src: url(./fonts/DS-DIGI.TTF);
+    font-family: DS-DIGI;
+}
+@font-face{
+    src: url(./fonts/DS-DIGIB.TTF);
+    font-family: DS-DIGIB;
+}
+@font-face{
+    src: url(./fonts/DS-DIGII.TTF);
+    font-family: DS-DIGII;
+}
+@font-face{
+    src: url(./fonts/DS-DIGIT.TTF);
+    font-family: DS-DIGIT;
+}
+
+body{
+    background-color: rgb(40, 21, 98);
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.additions{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+button{
+    font-family: DS-DIGIB;
+    background-color: rgb(40, 21, 98);
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid white;
+    font-size: large;
+}
+
+#home-point, #guest-point{
+    font-size: 100px;
+    background-color: black;
+    text-align: center;
+    width: auto;
+    padding: 2px 50px 2px 50px;
+    color: red;
+    font-family: DS-DIGIB;
+    margin-top: 7.5px;
+}
